@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+
+:root {
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: #33443a;
+  background: #f8f8f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input, select { font: inherit; }
+button { color: inherit; }
+#root { min-height: 100vh; }
+::selection { color: #183a2d; background: #d9e8d3; }
